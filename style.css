@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+}
+.b{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    border: 2px solid black;
+    background-color: black;
+    cursor: pointer;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+}
+p{
+    font-size: 40px;
+    color: white;
+}
+.container{
+    display: flex;
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;  /* Centers items horizontally */
+        /* Centers items vertically */
+    gap: 20px;                /* Adds spacing between items */
+    color: white;
+   
+    margin-top: 40px;
+    height: 10vh;            /* Full viewport height for centering */
+}
+.card *{
+    font-size:24px;
+}
+.tt{
+    font-size: 55px;
+}
+
+.re{
+    background-color:wheat;
+    border-radius: 15px;
+    height: 50px;
+    width: 300px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid blue;
+    cursor: pointer;
+
+
+
+}
+.reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 1200px) {
+    .b {
+        height: 200px;
+        width: 200px;
+        font-size: 22px;
+    }
+
+    
+
+    p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .b {
+        height: 180px;
+        width: 180px;
+        font-size: 20px;
+    }
+
+  
+
+    p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .b {
+        height: 160px;
+        width: 160px;
+        font-size: 18px;
+    }
+
+   
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .b {
+        height: 140px;
+        width: 140px;
+        font-size: 16px;
+    }
+
+ 
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .b {
+        height: 120px;
+        width: 120px;
+        font-size: 14px;
+    }
+
+
+
+    p {
+        font-size: 12px;
+    }
+}
